@@ -180,16 +180,16 @@ def tree(screen, color_leaves, color_apples, color_trunk, x, y, N):
     pygame.draw.ellipse(screen, color_leaves,
                         (x - 45 // N, y - 230 // N, 120 // N, 150 // N))
     pygame.draw.ellipse(screen, (134,166,89),
-                        (x - 45 // N, y - 230 // N, 120 // N, 150 // N), 2)
+                        (x - 45 // N, y - 230 // N, 120 // N, 150 // N), 2)     #верхний овал
     pygame.draw.ellipse(screen, color_leaves,
                         (x - 85 // N, y - 150 // N, 200 // N, 100 // N))
     pygame.draw.ellipse(screen, (134,166,89),
-                        (x - 85 // N, y - 150 // N, 200 // N, 100 // N), 2)
+                        (x - 85 // N, y - 150 // N, 200 // N, 100 // N), 2)     #средний овал
     pygame.draw.ellipse(screen, color_leaves,
                         (x - 45 // N, y - 80 // N, 120 // N, 100 // N))
     pygame.draw.ellipse(screen, (134,166,89),
-                        (x - 45 // N, y - 80 // N, 120 // N, 100 // N), 2)
-    circle(screen, color_apples, (x + 5 // N, y - 180 // N), 15 // N)
+                        (x - 45 // N, y - 80 // N, 120 // N, 100 // N), 2)      #нижний овал
+    circle(screen, color_apples, (x + 30 // N, y - 180 // N), 15 // N)
     circle(screen, color_apples, (x + 50 // N, y - 20 // N), 15 // N)
     circle(screen, color_apples, (x + 75 // N, y - 90 // N), 15 // N)
     circle(screen, color_apples, (x - 45 // N, y - 100 // N), 15 // N)
